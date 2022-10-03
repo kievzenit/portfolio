@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+
+    box-shadow: 0 0 5px hsl(0, 0%, 80%);
+}
+
+.logo {
+    color: hsl(227, 48%, 16%);
+
+    font-weight: bold;
+    font-family: monospace, monospace;
+    font-size: 1.3rem;
+}
+
+.logo::after,
+.logo::before,
+.nav .link::after {
+    content: '';
+    display: inline-block;
+    
+    position: relative;
+
+    border: 1px solid;
+    border-color: hsl(47, 100%, 57%);
+    border-radius: 5px;
+}
+
+.logo::before {
+    height: 0.75rem;
+}
+
+.logo::after {
+    bottom: -3px;
+    right: 3.55rem;
+
+    width: 3.4rem;
+}
+
+.nav .link {
+    position: relative;
+    margin: 0 5px;
+}
+
+.nav .link:hover {
+    --nav-link-color: hsl(47, 100%, 57%);
+}
+
+.nav .link::after {
+    transition: 0.2s ease-in-out;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2px;
+
+    border-color: var(--nav-link-color);
+}
