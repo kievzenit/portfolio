@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Header from "./Header"
 
 export default function Layout({activeLink, children}) {
@@ -5,6 +6,7 @@ export default function Layout({activeLink, children}) {
         <>
         <Header activeLink={activeLink}/>
         {children}
+        <Footer/>
         </>
     )
 }

@@ -1,0 +1,31 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    padding: 0 10px;
+
+    height: 30px;
+
+    box-shadow: 0 0 5px hsl(0, 0%, 80%);
+
+    text-align: center;
+    align-items: center;
+}
+
+.footer,
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items {
+    width: 45px;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    
+}
