@@ -19,10 +19,7 @@ export default function Header({ activeLink }) {
                         about
                     </a>
                 </Link>
-                <NewTabLink href="https://github.com/kievzenit?tab=repositories"
-                    className={
-                        activeLink === "projects" ?
-                            `${styles.link} ${styles.active}` : `${styles.link}`}>
+                <NewTabLink href="https://github.com/kievzenit?tab=repositories" className={styles.link}>
                     projects
                 </NewTabLink>
             </nav>
