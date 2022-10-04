@@ -33,6 +33,10 @@
     height: 0.75rem;
 }
 
+.logo.active::before {
+    border-color: hsl(355, 78%, 56%);
+}
+
 .logo::after {
     bottom: -3px;
     right: 3.55rem;
@@ -45,10 +49,6 @@
     margin: 0 5px;
 }
 
-.nav .link:hover {
-    --nav-link-color: hsl(47, 100%, 57%);
-}
-
 .nav .link::after {
     transition: 0.2s ease-in-out;
 
@@ -58,4 +58,12 @@
     top: 2px;
 
     border-color: var(--nav-link-color);
+}
+
+.nav .link.active {
+    --nav-link-color: hsl(355, 78%, 56%);
+}
+
+.nav .link:hover {
+    --nav-link-color: hsl(47, 100%, 57%);
 }
