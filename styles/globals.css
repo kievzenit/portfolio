@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +27,8 @@ body {
 
 :root {
   --nav-link-color: transparent;
+  --home-main-more-left: 76%;
+  --home-main-more-right: 4%;
 }
 
 :any-link {

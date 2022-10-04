@@ -1,0 +1,58 @@
+.main,
+.hello {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    flex-direction: column;
+    text-align: center;
+    
+    margin-top: 5%;
+}
+
+.hello {
+    font-size: 7rem;
+}
+
+.contanier {
+    display: block;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.about {
+    font-size: 2rem;
+}
+
+.more {
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+    position: relative;
+
+    font-size: 1.2rem;
+}
+
+.more:hover {
+    --home-main-more-left: 4%;
+}
+
+.more::after {
+    content: '';
+
+    transition: 0.2s ease-in-out;
+    
+    position: absolute;
+
+    bottom: 0;
+    left: var(--home-main-more-left);
+    right: var(--home-main-more-right);
+
+    border: 1px solid;
+    border-color: hsl(47, 100%, 57%);
+    border-radius: 5px;
+}
