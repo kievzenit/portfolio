@@ -1,6 +1,6 @@
-export default function NewTabLink({href, children}) {
+export default function NewTabLink({href, children, className}) {
     return (
-        <a href={href} target="_blank" rel="noopener noreferrer">
+        <a className={className} href={href} target="_blank" rel="noopener noreferrer">
             {children}
         </a>
     )
