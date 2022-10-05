@@ -35,6 +35,8 @@
     position: relative;
 
     font-size: 1.2rem;
+
+    cursor: pointer;
 }
 
 .more:hover {
