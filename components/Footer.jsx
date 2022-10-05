@@ -8,10 +8,10 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.items}>
                 <NewTabLink href="mailto:contact@kievzenit.tk">
-                    <Image src="/email.svg" width={20} height={20} />
+                    <Image src="/email.svg" width={20} height={20} alt="email" />
                 </NewTabLink>
                 <NewTabLink href="https://github.com/kievzenit">
-                    <Image src="/github.svg" width={20} height={20} />
+                    <Image src="/github.svg" width={20} height={20} alt="github" />
                 </NewTabLink>
             </div>
             <p className={styles.copyright}>© 2022 Kirill Syttsevyi</p>
