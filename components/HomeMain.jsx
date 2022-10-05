@@ -12,7 +12,7 @@ export default function HomeMain() {
             </h2>
             <div className={styles.container}>
                 <h6><s>General Kenobi!</s></h6>
-                <h4 className={styles.name}>I'm Kirill Syttsevyi</h4>
+                <h4 className={styles.name}>I&apos;m Kirill Syttsevyi</h4>
                 <h5 className={styles.about}>c# backend developer</h5>
                 <Link href="about">
                     <button className={styles.more}>More about me</button>
