@@ -18,3 +18,33 @@
 .section li {
     font-size: 1rem;
 }
+
+@media (max-width: 1050px) {
+    .section {
+        max-width: 60vw;
+    }
+}
+
+@media (max-width: 920px) {
+    .section {
+        max-width: 70vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .section {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 530px) {
+    .section {
+        max-width: 85vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        max-width: 87vw;
+    }
+}
