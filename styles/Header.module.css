@@ -27,6 +27,8 @@
     border: 1px solid;
     border-color: hsl(47, 100%, 57%);
     border-radius: 5px;
+
+    background-color: hsl(47, 100%, 57%);
 }
 
 .logo::before {
@@ -35,6 +37,7 @@
 
 .logo.active::before {
     border-color: hsl(355, 78%, 56%);
+    background-color: hsl(355, 78%, 56%);
 }
 
 .logo::after {
@@ -58,6 +61,7 @@
     top: 2px;
 
     border-color: var(--nav-link-color);
+    background-color: var(--nav-link-color);
 }
 
 .nav .link.active {

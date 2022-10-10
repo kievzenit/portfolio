@@ -57,6 +57,7 @@
     border: 1px solid;
     border-color: hsl(47, 100%, 57%);
     border-radius: 5px;
+    background-color: hsl(47, 100%, 57%);
 }
 
 @media (max-width: 960px) {
