@@ -9,7 +9,6 @@ export default function HomeMain() {
             <Head>
                 <meta name="description" content="I'm kievzenit and this is my personal portfolio website." />
                 <title>kievzenit | c# developer</title>
-                <meta name="google-site-verification" content="2o3XM0qJyB9QVLS8vWv2HU_wgyaTT0JtgZnX7lde8b8" />
             </Head>
             <main className={styles.main}>
                 <h2 className={styles.hello}>
