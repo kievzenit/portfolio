@@ -6,7 +6,7 @@ export default function AboutMain() {
         <>
             <Head>
             <meta name="description" content="A little bit about me. My tech skills." />
-                <title>About kievzenit | kievzenit's tech skills</title>
+                <title>About kievzenit | kievzenit&apos;s tech skills</title>
             </Head>
             <main className={styles.container}>
                 <div className={styles["inner-container"]}>
